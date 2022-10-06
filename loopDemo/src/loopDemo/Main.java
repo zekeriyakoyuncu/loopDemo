@@ -16,6 +16,17 @@ public class Main {
 			i+=2;
 		}
 		System.out.println("Döngü bitti.");
+		
+		
+		//Do-While
+		//Not: While ile Do-While farkı  Do-While da şart sağlanmasa bile bir kere çalışır.
+		int j = 2;
+		do {
+			System.out.println(j);
+			j+=2;
+		}
+		while(j<10);
+		System.out.println("Döngü bitti.");
 	}
 
 }
